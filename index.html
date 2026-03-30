@@ -1,18 +1,52 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Закрывающий тег</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/animations.css" />
-  </head>
-  <body class="page">
-    <header class="header"></header>
-    <main></main>
-    <script src="./scripts/like.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Закрывающий тег</title>
+  <link rel="stylesheet" href="./fonts/fonts.css" />
+  <link rel="stylesheet" href="./styles/variables.css" />
+  <link rel="stylesheet" href="./styles/globals.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/animations.css" />
+  <link rel="icon" href="./images/favicon.ico" sizes="any" />
+  <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./images/favicon.png" />
+</head>
+
+<body class="page">
+  <header class="header content-wrapper">
+    <h1 class="page-logo">&lt;/HTML&gt;</h1>
+    <p class="page-title">закрывающий тег</p>
+  </header>
+  <main class="content-wrapper main">
+    <article class="card">
+      <h2 class="card-title">Фритрек и нулевой спринт: Подготовка к работе</h2>
+      <img src="./images/card-image.png" class="content-wrapper">
+      <div class="card-content">
+        <p>Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И,
+          возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
+        <p>Место для ваших воспоминаний о начале обучения.</p>
+        </button>
+        <div class="card-actions">
+          <button class="card__icon-button" type="button">
+            <svg class="like-icon" width="27" height="24">
+            </svg>
+          </button>
+          <button class="card__like-button button" type="button">
+            <span class="button__text">Like</span>
+          </button>
+        </div>
+    </article>
+
+  </main>
+  <footer class="footer">
+    <button class="button save-button"><svg class="icon-save">
+        <use alt="Иконка сохранения" href="./svg/sprite.svg#icon-floppy" />
+      </svg><span class="button__text button-save-text">Сохранить на память</span></button>
+  </footer>
+  <script src="./scripts/like.js"></script>
+</body>
+
 </html>
