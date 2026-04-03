@@ -5,6 +5,8 @@
   --font-weight-heading-card: 715;
   --font-weight-paragraph-card: 410;
   --width-content: clamp(375px, 100%, 700px);
+  --text-stroke-color: #fff;
+  --accent-color: #000;
   --page-background-pattern: 
   repeating-linear-gradient(
     to left,
@@ -19,5 +21,7 @@
     #e7e7e7,
     #1a1a1a
   );
-
+--animation-controur-color: #000;
+--animation-fill-color: red;
+--contour-color: red;
 }
