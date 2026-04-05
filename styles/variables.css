@@ -4,7 +4,7 @@
   --font-accent: 'PressStart2P-Regular', sans-serif;
   --font-weight-heading-card: 715;
   --font-weight-paragraph-card: 410;
-  --width-content: clamp(375px, 100%, 700px);
+  --width-content: clamp(320px, 100%, 700px);
   --text-stroke-color: #fff;
   --accent-color: #000;
   --page-background-pattern: 
@@ -18,10 +18,14 @@
     rgba(0, 0, 0, 0) 2px 4px
   ),
   linear-gradient(
-    #e7e7e7,
+    #e7e7e7 0.01%,
     #1a1a1a
   );
---animation-controur-color: #000;
 --animation-fill-color: red;
 --contour-color: red;
+--content-bg-color: #fff;
+--page-gap: 100px;
+--main-gap: 50px;
+--button-text-color: #fff;
+--font-size-small: 0.77em;
 }
