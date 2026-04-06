@@ -1,12 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --font-main: 'Inter-Variable', sans-serif;
-  --font-accent: 'PressStart2P-Regular', Consolas, sans-serif;
+  --font-accent: 'PressStart2P', Consolas, sans-serif;
   --font-weight-heading-card: 715;
   --font-weight-paragraph-card: 410;
+  --font-weight-regular: 400;
   --width-content: clamp(320px, 100%, 700px);
   --text-stroke-color: #fff;
   --accent-color: #000;
+  --button-text-color: #fff;
+  --animation-fill-color: red;
+  --contour-color: red;
+  --content-bg-color: #fff;
   --page-background-pattern: 
   repeating-linear-gradient(
     to left,
@@ -21,11 +26,7 @@
     #e7e7e7 0.01%,
     #1a1a1a
   );
---animation-fill-color: red;
---contour-color: red;
---content-bg-color: #fff;
---page-gap: 100px;
---main-gap: 50px;
---button-text-color: #fff;
---font-size-small: 0.77em;
+  --page-gap: clamp(98px, 104.55px - 0.68vh, 100px);
+  --main-gap: 50px;
+  --font-size-small: 0.778rem;
 }
